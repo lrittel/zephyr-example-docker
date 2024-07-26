@@ -15,3 +15,5 @@
 
 !.vscode/STM32L4x3.svd
 !.vscode/STM32L476.svd
+
+.cache/
