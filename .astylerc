@@ -1,0 +1,8 @@
+style=google
+indent=spaces=4
+add-braces
+# TODO: Re-enable once ubuntu's version of astyle is not ancient anymore.
+#squeeze-lines=1
+#squeeze-ws
+align-pointer=name
+align-reference=name
