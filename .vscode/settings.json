@@ -1,6 +1,5 @@
 {
-  "editor.defaultFormatter": "chiehyu.vscode-astyle",
-  "astyle.astylerc": "${workspaceFolder}/.astylerc",
+  "editor.defaultFormatter": "ms-vscode.cpptools",
   "editor.formatOnSave": true,
   "files.insertFinalNewline": true,
   "files.eol": "\n",
@@ -9,5 +8,7 @@
     "arch": "arm",
     "dir": "${env:ZEPHYR_BASE}/boards/arm/nucleo_l476rg"
   },
-  "cmake.configureOnOpen": false
+  "cmake.configureOnOpen": false,
+  "editor.formatOnPaste": true,
+  "C_Cpp.formatting": "clangFormat"
 }
